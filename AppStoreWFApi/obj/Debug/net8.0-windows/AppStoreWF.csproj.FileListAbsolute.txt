@@ -1,0 +1,17 @@
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.exe
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.dll.config
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.deps.json
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.runtimeconfig.json
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\bin\Debug\net8.0-windows\AppStoreWF.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.ProductsInformations.resources
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.csproj.GenerateResource.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.AssemblyInfo.cs
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\refint\AppStoreWF.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\AppStoreWF.genruntimeconfig.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreWF\obj\Debug\net8.0-windows\ref\AppStoreWF.dll

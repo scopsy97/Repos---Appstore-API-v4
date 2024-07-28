@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ABaoQ5eKu03ca1b3lHqDVWYoNs+8chcEWGfAIKm7x7g=",
+  "Source": "AppStoreWebApi",
+  "BasePath": "_content/AppStoreWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

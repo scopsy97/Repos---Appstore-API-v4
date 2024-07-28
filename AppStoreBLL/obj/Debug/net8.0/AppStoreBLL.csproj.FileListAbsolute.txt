@@ -1,0 +1,17 @@
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreBLL.deps.json
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreBLL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreBLL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreBOL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreDAL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreBOL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\bin\Debug\net8.0\AppStoreDAL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.AssemblyInfo.cs
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.csproj.CopyComplete
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\refint\AppStoreBLL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\AppStoreBLL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBLL\obj\Debug\net8.0\ref\AppStoreBLL.dll

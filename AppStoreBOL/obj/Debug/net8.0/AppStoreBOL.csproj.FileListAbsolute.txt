@@ -1,0 +1,11 @@
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\bin\Debug\net8.0\AppStoreBOL.deps.json
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\bin\Debug\net8.0\AppStoreBOL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\bin\Debug\net8.0\AppStoreBOL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.AssemblyInfo.cs
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\refint\AppStoreBOL.dll
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\AppStoreBOL.pdb
+C:\Users\Utilisateur\Source\Repos\AppStoreBOL\obj\Debug\net8.0\ref\AppStoreBOL.dll

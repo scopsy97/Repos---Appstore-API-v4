@@ -1,0 +1,106 @@
+﻿@page
+@model AppStore.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create new product</a>
+</p>
+
+
+
+<form asp-page="./Index" method="get">
+    <p>Tri catégorie :
+        <select asp-for="productCategory" asp-items="Model.Categories">
+            <option value="">All</option>
+        </select>
+        Find by product name: <input type="text" asp-for="searchString" value="@Model.CurrentFilter" />
+        <input type="submit" class="btn btn-primary" value="Search" />
+        <a asp-page="./Index">Back to full List</a>
+    </p>
+</form>
+
+<table class="table table-sucess table-striped table-responsive table-hover">
+    <thead>
+        <tr>
+            
+            <th>
+                <a asp-page"./Index" asp-route-sortOrder="@Model.NameSort" asp-route-currentFilter="@Model.CurrentFilter">
+                @Html.DisplayNameFor(model => model.Products[0].ProductName)
+               </a>
+            </th>
+            <th>
+               
+                @Html.DisplayNameFor(model => model.Products[0].ProductPrice)
+                
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products[0].ProductDescription)
+            </th> 
+            <th>
+                 <a asp-page"./Index" asp-route-sortOrder="@Model.CategorySort" asp-route-currentFilter="@Model.CurrentFilter">
+                @Html.DisplayNameFor(model => model.Products[0].CategoryName)
+                </a>
+            </th>
+            
+           
+        </tr>
+    </thead>
+    <tbody>
+      @if (Model != null && Model.Products.Any()) //Si il y a des produits
+      {
+       @foreach (var item in Model.Products)
+        {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.ProductDescription)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                   
+                    <td>
+                                <a asp-page="./Edit" asp-route-id="@item.ProductId" type="button" class="btn btn-secondary">Edit</a> |
+                                    <a asp-page="./Details" asp-route-id="@item.ProductId" type="button" class="btn btn-success">Details</a> |
+                                            <a asp-page="./Delete" asp-route-id="@item.ProductId" type="button" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr> 
+            }
+        }
+        else  //Si pas de produits affiche un message
+        {
+            <tr>
+                <td colspan="5" class="text-center">
+                    Product not available
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.Products.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.Products.HasNextPage ? "disabled" : "";
+}
+
+<a asp-page="./Index"
+asp-route-sortOrder="@Model.CurrentSort" 
+asp-route-pageIndex="@(Model.Products.PageIndex -1)"
+ asp-route-currentFilter="@Model.CurrentFilter"
+ class="btn btn-primary @prevDisabled">Previous
+</a>
+
+<a asp-page="./Index"
+asp-route-sortOrder="@Model.CurrentSort" 
+asp-route-pageIndex="@(Model.Products.PageIndex +1)"
+ asp-route-currentFilter="@Model.CurrentFilter"
+ class="btn btn-primary @nextDisabled">Next
+</a>
